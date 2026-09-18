@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Electronics</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body style="width: 600px;margin: auto;">
+    <main style="background-color: rgb(154, 203, 255);margin-top: 30px;">
+        <table style="margin: auto;">
+            <tr>
+                <th class="B">
+                    <h1 style="font-size:x-larger;margin-bottom: 15px;margin-top: 15px;">Jackson</h1>
+                    <hr class="hr0">
+                    <h1 style="font-size:x-larger;margin-bottom: 15px;margin-top: 15px;">Electronics</h1>
+                </th>
+            </tr>
+        </table>
+        <h1 class="A" style="margin-top: 40px;" >Registration Form</h1>
+        <p  style="text-align: center;margin-bottom: 0cm;">Register your Jackson Electronics product here</p>
+        <table border="0" cellspacing="0">
+            <tr>
+                <td style="text-align: left;vertical-align: top;">
+                    <div style="margin-left: 5px;">
+                        <p id="A" >First Name:</p>
+                        <p id="A" >Address #1:</p>
+                        <p id="A" >Address #2:</p>
+                        <p id="A" >City:</p>
+                        <p id="A" >Country:</p>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <div style="margin-left: 11px;">
+                        <input type="text" name="ten1" style="width: 90px;margin-left: 89px;">
+                        <span style="font-size: small;">Last Name:</span> 
+                        <input type="text" name="ten2" style="width: 100px;"><br>
+                        <input type="text" name="Address1" class="C"><br>
+                        <input type="text" name="Address2" class="C"><br>
+                        <input type="text" name="City" class="C1"><span style="font-size: small;">State:</span>
+                        <input type="text" name="State" style="width: 35px;" ><span style="font-size: small;">Zip:</span>
+                        <input type="text" name="Zip" style="width: 50px;"><br>
+                        <input type="text" name="Country" style="width: 130px; margin-left: 89px; margin-top: 3px;">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <hr class="hr1">
+        <table border="0" cellspacing="0">
+            <tr style="height: 0;">
+                <div>
+                    <td style="text-align: left;padding-bottom: 1px;">
+                        <div style="margin-bottom: 40px;margin-left: 5px;">
+                            <p id="A1" >Product:</p>
+                            <p id="A1" >Date Purchased:</p>
+                            <p id="A1" >Serial#:</p>
+                            <p id="A1" >User for:</p>
+                        </div>
+                        <div style="margin-bottom: 85px;margin-left: 5px;">
+                            <p id="A1" style="margin-top: 42px;margin-bottom: 0px;" >System (check all that apply):</p>
+                        </div>
+                    </td>
+                    <td style="vertical-align: top;height:auto;">
+                        <div style="margin-left: 7px;">
+                            <select name="product" style="width: 105px;margin-right: 82px;">
+                                <option value="scanmaster">ScanMaster</option>
+                                <option value="other">Tên sản phẩm khác...</option>
+                            </select><br>
+                            <input type="text" name="Date" style="width: 130px; margin-right: 49px; margin-top: 3px;"><br>
+                            <input type="text" name="Serial" style="width: 130px; margin-right: 49px; margin-top: 3px;"><br>
+                        </div>
+                        <form>
+                            <p style="margin-bottom: 0px; margin-top: 3px;margin-left: 7px;">
+                                <span><input type="radio" id="s1" value="1" name="name" style="accent-color: green;"><label for="s1">Home</label></span>
+                                <span style="margin-left: 60x;"><input type="radio" id="s2" value="2" name="name" style="accent-color: green;margin-left: 78px;"><label for="s2">Educational Institution</label></span><br>
+                                <span style="margin-right: 58px;"><input type="radio" id="s3" value="3" name="name" style="accent-color: green;"><label for="s3">Business</label></span>
+                                <span style="margin-right: 96px;"><input type="radio" id="s4" value="4" name="name" style="accent-color: green;"><label for="s4">Other</label></span><br>
+                                <span style="margin-right: 192px;"><input type="radio" id="s5" value="5" name="name" style="accent-color: green;"><label for="s5">Govemment</label></span>
+                            </p>
+                            <p style="margin-left: 6px; margin-bottom: 0px; margin-top: 0px;">
+                                <span><input type="checkbox" id="a1" value="1" name="go" ><label for="a1">Windows</label></span>
+                                <span style="margin-left: 56px;"><input type="checkbox" id="a2" value="2" name="go" ><label for="a2">UNIX</label></span><br>
+                                <span style="margin-right: 12px;"><input type="checkbox" id="a3" value="3" name="go" ><label for="a3">Macintosh</label></span>
+                                <span style="margin-left: 39px;"><input type="checkbox" id="a4" value="4" name="go" ><label for="a4">Other</label></span>
+                            </p>
+                        </form>
+                    </td>
+                </div>
+            </tr>
+        </table>
+        <hr class="hr1" style="margin-top: -60px;">
+        <table>
+            <tr>
+                <td style="vertical-align: top;">
+                    <p id="A1" >Comments?:</p>
+                </td>
+                <td>
+                    <input type="text" name="in" style="width: 305px;margin-left: 95px;height: 100px;"><br>
+                    <span style="margin-left: 65px;">
+                        <button>Click to register</button>
+                        <button>Click to cancel</button>
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
