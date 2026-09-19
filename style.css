@@ -52,6 +52,7 @@ p{
     width: 480px;
     margin-top: 0px;
     margin-bottom: 7px;
+    border: 0.5px solid black;
 }
 #A1{
     margin-left: 60px;
