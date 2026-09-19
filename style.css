@@ -50,7 +50,6 @@ p{
 }
 .hr1{
     width: 480px;
-    border-color: black;
     margin-top: 0px;
     margin-bottom: 7px;
 }
@@ -67,4 +66,7 @@ button{
     border-bottom-right-radius: 3px;
     margin-top: 10px;
     border: 1px solid black;
+}
+input::placeholder{
+    color: black;
 }
