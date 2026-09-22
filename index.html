@@ -3,103 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jackson Electronics</title>
+    <title>Cafe menu</title>
 </head>
 <link rel="stylesheet" href="style.css">
-<body style="width: 600px;margin: auto;">
-    <main style="background-color: rgb(154, 203, 255);margin-top: 5px;">
-        <table style="margin: auto;">
-            <tr>
-                <th class="B">
-                    <h1 style="font-size:x-larger;margin-bottom: 15px;margin-top: 15px;">Jackson</h1>
-                    <hr class="hr0">
-                    <h1 style="font-size:x-larger;margin-bottom: 15px;margin-top: 15px;">Electronics</h1>
-                </th>
-            </tr>
-        </table>
-        <h1 class="A" style="margin-top: 20px;" >Registration Form</h1>
-        <p  style="text-align: center;margin-bottom: 0cm;">Register your Jackson Electronics product here</p>
+<body style="border:2px solid rgb(207, 167, 169);margin-right: 180px;" >
+    <header style="margin: auto;">
+        <h1 style="font-size: xx-larger;"><em>EXAMPLE CAFE MENU</em></h1>
+        <p class="A1">
+            <span style="margin-left: 30px;"><img src="AnhBaiTap/icons8-home-50.png" style="width: 20px;"></span>
+            <span style="padding-left: 50px;padding-right: 40px;margin-right: 0px;">STARTER</span>
+            <span style="padding-right: 5px;padding-left: 15px;">MAIN COURSES</span>
+            <span style="padding-right: 20px;padding-left: 40px;">DESSERTS</span>
+            <span style="border-right: none;margin-left: 45px;padding-left: 0;">
+                <input type="text" name="find" style="width: 200px;">
+                <button>Go</button>
+            </span>
+        </p>
+    </header>
+    <main>
         <table border="0" cellspacing="0">
             <tr>
-                <td style="text-align: left;vertical-align: top;">
-                    <div style="margin-left: 5px;">
-                        <p class="A3" >First Name:</p>
-                        <p class="A3" >Address #1:</p>
-                        <p class="A3" >Address #2:</p>
-                        <p class="A3" >City:</p>
-                        <p class="A3" >Country:</p>
-                    </div>
-                </td>
-                <td style="vertical-align: top;">
-                    <div style="margin-left: 11px;">
-                        <input type="text" name="ten1" style="width: 90px;margin-left: 89px;">
-                        <span style="font-size: small;">Last Name:</span> 
-                        <input type="text" name="ten2" style="width: 100px;"><br>
-                        <input type="text" name="Address1" class="C"><br>
-                        <input type="text" name="Address2" class="C"><br>
-                        <input type="text" name="City" class="C1"><span style="font-size: small;">State:</span>
-                        <input type="text" name="State" style="width: 35px;" ><span style="font-size: small;">Zip:</span>
-                        <input type="text" name="Zip" style="width: 50px;"><br>
-                        <input type="text" name="Country" style="width: 130px; margin-left: 89px; margin-top: 1.5px;" placeholder="United States">
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <hr class="hr1">
-        <table border="0" cellspacing="0">
-            <tr style="height: 0;">
-                <div>
-                    <td style="text-align: left;padding-bottom: 1px;">
-                        <div style="margin-bottom: 40px;margin-left: 5px;">
-                            <p class="A1" >Product:</p>
-                            <p class="A1" >Date Purchased:</p>
-                            <p class="A1" >Serial#:</p>
-                            <p class="A1" >User for:</p>
-                        </div>
-                        <div style="margin-bottom: 85px;margin-left: 5px;">
-                            <p class="A1" style="margin-top: 42px;margin-bottom: 0px;" >System (check all that apply):</p>
-                        </div>
-                    </td>
-                    <td style="vertical-align: top;height:auto;">
-                        <div style="margin-left: 7px;">
-                            <select name="product" style="width: 105px;margin-right: 82px;">
-                                <option value="scanmaster">ScanMaster</option>
-                                <option value="other">Tên sản phẩm khác...</option>
-                            </select><br>
-                            <input type="text" name="Date" class="in1"><br>
-                            <input type="text" name="Serial" class="in1"><br>
-                        </div>
-                        <form>
-                            <p style="margin-bottom: 0px; margin-top: 1.5px;margin-left: 7px;">
-                                <span><input type="radio" id="s1" value="1" name="name" style="accent-color: green;"><label for="s1">Home</label></span>
-                                <span style="margin-left: 60x;"><input type="radio" id="s2" value="2" name="name" style="accent-color: green;margin-left: 78px;"><label for="s2">Educational Institution</label></span><br>
-                                <span style="margin-right: 58px;"><input type="radio" id="s3" value="3" name="name"  style="accent-color: green;" checked><label for="s3">Business</label></span>
-                                <span style="margin-right: 96px;"><input type="radio" id="s4" value="4" name="name" style="accent-color: green;"><label for="s4">Other</label></span><br>
-                                <span style="margin-right: 192px;"><input type="radio" id="s5" value="5" name="name" style="accent-color: green;"><label for="s5">Govemment</label></span>
-                            </p>
-                            <p style="margin-left: 6px; margin-bottom: 0px; margin-top: 0px;">
-                                <span><input type="checkbox" id="a1" value="1" name="go" ><label for="a1">Windows</label></span>
-                                <span style="margin-left: 56px;"><input type="checkbox" id="a2" value="2" name="go" ><label for="a2">UNIX</label></span><br>
-                                <span style="margin-right: 12px;"><input type="checkbox" id="a3" value="3" name="go" ><label for="a3">Macintosh</label></span>
-                                <span style="margin-left: 39px;"><input type="checkbox" id="a4" value="4" name="go" ><label for="a4">Other</label></span>
-                            </p>
-                        </form>
-                    </td>
-                </div>
-            </tr>
-        </table>
-        <hr class="hr1" style="margin-top: -60px;">
-        <table>
-            <tr>
-                <td style="vertical-align: top;">
-                    <p id="A1" style="margin-left: 62px;" >Comments?:</p>
+                <td style="padding: 0;vertical-align: top;">
+                    <p class="A" style="margin-top: 10px;">Cafe Latte</p>
+                    <p class="A">Capuchino</p>
+                    <p class="A">Ocean Blue</p>
+                    <p class="A">Ice-cream Cafe</p>
+                    <p class="A">Order Online</p>
+                    <img src="AnhBaiTap/company.png" style="width: 300px;border-radius: 100%;padding-top: 8px;box-shadow: 5px 20px 10px pink;">
                 </td>
                 <td>
-                    <input type="text" name="in" style="width: 298px;margin-left: 95px;padding-bottom: 75px;" ><br>
-                    <span style="margin-left: 65px;">
-                        <button>Click to register</button>
-                        <button>Click to cancel</button>
-                    </span>
+                    <div>
+                        <h2 class="B1">S t a r s t e r</h2>
+                        <ul>
+                            <li>Chesnut and Mushroom Goujons(<u>v</u>)</li>
+                            <li>Goat Cheese(<u>v</u>)</li>
+                            <li><span style="color: orange;border: none;">HONEY SOY CHICKEN KEBABS</span>(<u>V</u>)</li>
+                            <li>Seafood Salad(<u>v</u>)</li>
+                        </ul>
+                        <u>Back to Top:</u>
+                        <h2 class="B1">D e s s e r t s</h2>
+                        <ul>
+                            <li>Lemon Sorbet(<u>v</u>)</li>
+                            <li>Chocolate Mud Pie(<u>v</u>)</li>
+                            <li>Pecan Pie(<u>v</u>)</li>
+                            <li>Selection  of fine Cheeses form Around the World(<u>v</u>)</li>
+                        </ul>
+                        <u>Back to Top:</u>
+                        <h2 class="B1">I N F O R M A T I O N</h2>
+                        <div style="margin-left: 10px;">
+                            <input class="B" style="margin-right: 30px;" type="text" name="ten" placeholder="First Name">
+                            <input class="B" type="text" name="last" placeholder="Last Name"><br>
+                            <input class="B" style="margin-right: 30px;" type="text" name="mail" placeholder="Email">
+                            <input class="B" type="text" name="phone" placeholder="Telephone">
+                            <select>
+                                <option value="usa">USA</option>
+                                <option value="viet">Vietnamese</option>
+                            </select>
+                            <input type="radio" name="check">Vietnamese
+                            <input type="radio" name="check">Foreigner
+                            <textarea type="text" name="comment" placeholder="Comment"></textarea><br>
+                            <button>Submit</button><button>Cacel</button>
+                        </div>
+                    </div>
+                </td>
+                <td style="padding-right: 0px;">
+                    <div style="background-color: black;color: white;">
+                        <h2>Events</h2>
+                        <h3>Regular Meetings</h3>
+                        <img src="AnhBaiTap/meeting.png" style="width: 300px;">
+                        <p>Host your regular team meetings or activities in the comfort of your own private room.<u style="color: pink;">Read mode...</u></p>
+                        <h3>Product Launches</h3>
+                        <img src="AnhBaiTap/launch.png" style="width: 300px;">
+                        <p>Launch your product with ease in a space that truly fits its image.<u style="color: pink;">Read mode...</u></p>
+                    </div>
                 </td>
             </tr>
         </table>
